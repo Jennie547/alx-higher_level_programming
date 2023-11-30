@@ -1,9 +1,9 @@
-#!/usr/bin/python
-
-from add_0 import add
+#!/usr/bin/python3
 
 if __name__ == "__maim_":
 
+    from add_0 import add
+
     a = 1
     b = 2
-    print(f"{a} + {b} = {add(a, b)}")
+    print("{} + {} = {}".format(a, b, add(a, b)))
