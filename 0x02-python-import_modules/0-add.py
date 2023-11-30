@@ -1,6 +1,8 @@
 #!/usr/bin/python
-import add from add_0
-if __name__ = "__maim_":
+
+from add_0 import add
+
+if __name__ == "__maim_":
 
     a = 1
     b = 2
